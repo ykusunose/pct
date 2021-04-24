@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset=utf-8 />
+	<title>Pacific Crest Trail map</title>
+	<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css" />
+
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Walter+Turncoat" rel="stylesheet">
+
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			background: #f5f5f5;
+			font-family: 'Walter Turncoat', cursive;
+			color: #3d3d3d;
+		}
+
+		section {
+
+			width: 80%;
+			margin: 20px auto;
+		}
+
+		h1 {
+			font-size: 3em;
+			font-family: 'Walter Turncoat', cursive;
+			letter-spacing: .04em;
+		}
+
+		h2 {
+			font-size: 2em;
+			font-family: 'Dancing Script', cursive;
+			letter-spacing: .04em;
+		}
+
+		p {
+			font-size: 1em;
+			line-height: 1.5em;
+		}
+
+		a {
+			color: #005daa;
+			font-weight: bold;
+			text-decoration: none;
+		}
+
+		a:hover {
+			text-decoration: underline;
+		}
+
+		ul {
+			padding-left: 20px;
+		}
+
+		li {
+			margin: 10px 0
+		}
+
+		#map {
+			width: 100%;
+			margin: 10px auto;
+		}
+
+		.max-image-width {
+			width: 80%;
+		}
+
+		.linkbox {
+			margin: 3px 0 20px 0;
+			display: block;
+			font-weight: 300;
+		}
+
+		hr {
+			border: 0px;
+			border-bottom: 1px solid #3d3d3d;
+			padding-top: 20px;
+		}
+
+	</style>
+</head>
+
+<body>
+	<section>
+
+		<!-- This is an HTML comment. Find the comments below and follow the instructions. -->
+
+		<h1>The PACIFIC CREST TRAIL on Erwin Raisz's classic 1957 map</h1>
+
+		<div id='map'>
+			<!-- Add your custom HTML here -->
+			<img src="pct_raisz_1200px.png" class="max-width-img" alt="Map of sidewalks near Patterson Hall">
+		</div>
+		<a href="pct_raisz_8000px.png" class="linkbox">Link to higher resolution image.</a>
+
+		<!-- Add you information below -->
+		<h2>Authored by YKusunose!</h2>
+		<p>This map was commissioned by the Craggy Cartographers and created by Y. Kusunose using the following layers:
+          <ul>
+            <li>Pacific Crest Trail shapefile: USDA Forest Service </li>
+            <li> U.S. illustrated map: Erwin Raisz (1957) </li>
+            <li> U.S. states shapefile: National Atlas of the United States 1:1,000,000-scale data </li>
+            <li> 10-meter graticules: Natural Earth Data </li>
+            <li> Base layer map: Esri Topo World XYZ Tile</li>  
+          </ul> 
+          QGIS3.12 and the Georeferencer plug-in were used to georeference Raisz's map onto the EPSG: 102008 Coordinate Reference System.</p> 
+		<ul>
+			<!-- Change the following contacts to your personal brand, whatever you want it to be! -->
+			<li>See my projects on GitHub: <a href="https://github.com/newmapsplus/map671-module-06-ykusunose ">ykusunose</a></li>
+			<li>Visit my College of Agriculture <a href="https://agecon.ca.uky.edu/person/yoko-kusunose">website</a>.</li>
+		</ul>
+	</section>
+
+</body>
+
+</html>
